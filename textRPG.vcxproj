@@ -132,9 +132,16 @@
   <ItemGroup>
     <None Include="README.md" />
     <None Include="src\data\Resources\Items.json" />
+    <None Include="src\data\schemas\item.schema.json" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utils\parser\itemsParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\config\CoreConfig.h" />
+    <ClInclude Include="src\core\entities\Item\Item.h" />
+    <ClInclude Include="src\utils\parser\itemsParser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

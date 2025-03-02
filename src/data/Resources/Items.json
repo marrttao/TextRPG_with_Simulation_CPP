@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": [
+    {
+      "id": 0,
+      "name": "Health Potion",
+      "type": "consumable",
+      "effect": "heal"
+    },
+    {
+      "id": 1,
+      "name": "Iron Sword",
+      "type": "weapon",
+      "damage": 10
+    },
+    {
+      "id": 2,
+      "name": "Leather Armor",
+      "type": "armor",
+      "defense": 5
+    },
+    {
+      "id": 3,
+      "name": "Mana Potion",
+      "type": "consumable",
+      "effect": "restore_mp"
+    },
+    {
+      "id": 4,
+      "name": "Fire Scroll",
+      "type": "consumable",
+      "effect": "fire_spell"
+    },
+    {
+      "id": 5,
+      "name": "Steel Shield",
+      "type": "armor",
+      "defense": 15
+    },
+    {
+      "id": 6,
+      "name": "Healing Herb",
+      "type": "consumable",
+      "effect": "heal"
+    },
+    {
+      "id": 7,
+      "name": "Magic Wand",
+      "type": "weapon",
+      "damage": 12
+    },
+    {
+      "id": 8,
+      "name": "Chainmail Armor",
+      "type": "armor",
+      "defense": 10
+    },
+    {
+      "id": 9,
+      "name": "Stamina Potion",
+      "type": "consumable",
+      "effect": "restore_stamina"
+    },
+    {
+      "id": 10,
+      "name": "Ice Scroll",
+      "type": "consumable",
+      "effect": "ice_spell"
+    },
+    {
+      "id": 11,
+      "name": "Silver Dagger",
+      "type": "weapon",
+      "damage": 8
+    },
+    {
+      "id": 12,
+      "name": "Golden Armor",
+      "type": "armor",
+      "defense": 20
+    },
+    {
+      "id": 13,
+      "name": "Elixir",
+      "type": "consumable",
+      "effect": "restore_hp_mp"
+    },
+    {
+      "id": 14,
+      "name": "Thunder Scroll",
+      "type": "consumable",
+      "effect": "thunder_spell"
+    },
+    {
+      "id": 15,
+      "name": "Bronze Helmet",
+      "type": "armor",
+      "defense": 7
+    },
+    {
+      "id": 16,
+      "name": "Strength Potion",
+      "type": "consumable",
+      "effect": "boost_strength"
+    },
+    {
+      "id": 17,
+      "name": "Fire Sword",
+      "type": "weapon",
+      "damage": 15
+    },
+    {
+      "id": 18,
+      "name": "Dragon Scale Armor",
+      "type": "armor",
+      "defense": 25
+    },
+    {
+      "id": 19,
+      "name": "Phoenix Feather",
+      "type": "consumable",
+      "effect": "revive"
+    }
+  ]
+}
